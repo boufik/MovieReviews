@@ -1,0 +1,232 @@
+/* ===== Theme tokens ===== */
+:root {
+  --bg: #0e1116;
+  --bg-card: #1a1f29;
+  --bg-card-hover: #212836;
+  --border: #2b3340;
+  --text: #e7ebf0;
+  --text-muted: #9aa6b5;
+  --accent: #ffb43a;        /* warm "spotlight" gold */
+  --accent-soft: #3a2f17;
+  --chip-bg: #242c38;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  --radius: 14px;
+}
+
+/* ===== Base ===== */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+}
+
+/* ===== Header / footer ===== */
+.site-header {
+  text-align: center;
+  padding: 3rem 1.25rem 2rem;
+  border-bottom: 1px solid var(--border);
+  background: radial-gradient(1200px 300px at 50% -120px, rgba(255, 180, 58, 0.12), transparent);
+}
+
+.site-title {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  letter-spacing: 0.5px;
+}
+
+.site-subtitle {
+  margin: 0.6rem auto 0;
+  max-width: 40rem;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+}
+
+/* ===== Layout ===== */
+.container {
+  max-width: 1200px;       /* keeps cards from stretching on huge screens */
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+/* Mobile-first: 1 card per row */
+.movie-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+/* Tablet: 2 per row */
+@media (min-width: 600px) {
+  .movie-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Big PC screen: cap at 3 per row (info-heavy cards) */
+@media (min-width: 992px) {
+  .movie-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ===== Movie card ===== */
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-4px);
+  background: var(--bg-card-hover);
+  border-color: var(--accent);
+}
+
+.card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.movie-name {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+.movie-year {
+  color: var(--text-muted);
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+/* Rating badge */
+.rating {
+  flex: 0 0 auto;
+  min-width: 3.2rem;
+  text-align: center;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 0.3rem 0.6rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.rating small {
+  display: block;
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.5px;
+}
+
+/* Oscars block */
+.oscars-block {
+  margin-top: 0.7rem;
+}
+
+.oscars {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+/* Smaller, muted disclaimer naming the specific Oscars */
+.oscar-detail {
+  margin: 0.15rem 0 0;
+  font-size: 0.76rem;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+/* Genre chips */
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.9rem 0;
+}
+
+.chip {
+  background: var(--chip-bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.78rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+
+/* Detail rows (director, actors, music) */
+.details {
+  margin: 0.4rem 0 1rem;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.detail-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding-left: 0.7rem;
+  border-left: 2px solid var(--accent);
+}
+
+.detail-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.detail-value {
+  font-size: 0.95rem;
+  color: var(--text);
+  font-weight: 500;
+}
+
+/* Relevant info blurb */
+.info {
+  margin: 0;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.92rem;
+}
+
+/* Empty state */
+.empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--text-muted);
+  padding: 3rem 1rem;
+}
