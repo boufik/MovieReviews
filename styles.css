@@ -1,4 +1,4 @@
-/* ===== Theme tokens ===== */
+/* -------- Base -------- */
 :root {
   --bg: #0e1116;
   --bg-card: #1a1f29;
@@ -6,14 +6,13 @@
   --border: #2b3340;
   --text: #e7ebf0;
   --text-muted: #9aa6b5;
-  --accent: #ffb43a;        /* warm "spotlight" gold */
+  --accent: #ffb43a;
   --accent-soft: #3a2f17;
   --chip-bg: #242c38;
   --shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
   --radius: 14px;
 }
 
-/* ===== Base ===== */
 * {
   box-sizing: border-box;
 }
@@ -30,10 +29,13 @@ body {
   line-height: 1.55;
 }
 
-/* ===== Header / footer ===== */
+
+
+
+/* -------- Header and footer -------- */
 .site-header {
   text-align: center;
-  padding: 3rem 1.25rem 2rem;
+  padding: 1.5rem 1.25rem 1.5rem;
   border-bottom: 1px solid var(--border);
   background: radial-gradient(1200px 300px at 50% -120px, rgba(255, 180, 58, 0.12), transparent);
 }
@@ -57,38 +59,43 @@ body {
   color: var(--text-muted);
   font-size: 0.85rem;
   border-top: 1px solid var(--border);
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
-/* ===== Layout ===== */
+
+
+
+/* -------- Layout and Responsive Design -------- */
 .container {
-  max-width: 1200px;       /* keeps cards from stretching on huge screens */
+  max-width: 1200px;              /* Keeps cards from stretching on huge screens */
   margin: 0 auto;
   padding: 2rem 1.25rem;
 }
 
-/* Mobile-first: 1 card per row */
+/* Mobile: 1 card per row */
 .movie-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
 }
 
-/* Tablet: 2 per row */
+/* Tablet: 2 cards per row */
 @media (min-width: 600px) {
   .movie-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Big PC screen: cap at 3 per row (info-heavy cards) */
+/* Big PC screen: 3 cards per row */
 @media (min-width: 992px) {
   .movie-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-/* ===== Movie card ===== */
+
+
+/* -------- Movie Card -------- */
 .movie-card {
   display: flex;
   flex-direction: column;
@@ -101,9 +108,10 @@ body {
 }
 
 .movie-card:hover {
-  transform: translateY(-4px);
+  /* transform: translateY(-4px); */
   background: var(--bg-card-hover);
   border-color: var(--accent);
+  box-shadow: 0 10px 10px 0 var(--accent);
 }
 
 .card-head {
@@ -125,7 +133,10 @@ body {
   font-size: 0.95rem;
 }
 
-/* Rating badge */
+
+
+
+/* -------- Rating Badge -------- */
 .rating {
   flex: 0 0 auto;
   min-width: 3.2rem;
@@ -147,7 +158,10 @@ body {
   letter-spacing: 0.5px;
 }
 
-/* Oscars block */
+
+
+
+/* -------- Oscars Block -------- */
 .oscars-block {
   margin-top: 0.7rem;
 }
@@ -160,7 +174,6 @@ body {
   letter-spacing: 0.2px;
 }
 
-/* Smaller, muted disclaimer naming the specific Oscars */
 .oscar-detail {
   margin: 0.15rem 0 0;
   font-size: 0.76rem;
@@ -168,7 +181,10 @@ body {
   color: var(--text-muted);
 }
 
-/* Genre chips */
+
+
+
+/* -------- Genre Chips -------- */
 .genres {
   display: flex;
   flex-wrap: wrap;
@@ -185,7 +201,10 @@ body {
   border-radius: 999px;
 }
 
-/* Detail rows (director, actors, music) */
+
+
+
+/* -------- Detail rows (director, actors, music) -------- */
 .details {
   margin: 0.4rem 0 1rem;
   display: grid;
@@ -214,7 +233,10 @@ body {
   font-weight: 500;
 }
 
-/* Relevant info blurb */
+
+
+
+/* -------- Relevant Info -------- */
 .info {
   margin: 0;
   padding-top: 0.9rem;
@@ -223,7 +245,6 @@ body {
   font-size: 0.92rem;
 }
 
-/* Empty state */
 .empty-state {
   grid-column: 1 / -1;
   text-align: center;
