@@ -139,19 +139,19 @@ body {
 /* -------- Rating Badge -------- */
 .rating {
   flex: 0 0 auto;
-  min-width: 3.2rem;
+  min-width: 4.8rem;
   text-align: center;
   background: var(--accent-soft);
   color: var(--accent);
   border: 1px solid var(--accent);
   border-radius: 999px;
-  padding: 0.3rem 0.6rem;
+  padding: 0.4rem 0.8rem;
   font-weight: 700;
   font-size: 0.95rem;
 }
 
 .rating small {
-  display: block;
+  display: inline;
   font-size: 0.6rem;
   font-weight: 600;
   color: var(--text-muted);
