@@ -20,7 +20,7 @@ const interstellar = {
     year: 2014,
     oscars: 1,
     oscarDetails: ["Best Visual Effects"],
-    actors: ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+    actors: ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain", "Mackenzie Foy", "Michael Caine"],
     director: "Christopher Nolan",
     music: "Hans Zimmer",
     info: "A love letter to space, time and the bond between a father and daughter. Zimmer's organ score hits like a force of nature."
@@ -29,12 +29,12 @@ const interstellar = {
 // 02: IMDB = 10
 const darkKnight = {
     name: "The Dark Knight",
-    rating: 99,
+    rating: 100,
     genres: ["Action", "Crime", "Drama"],
     year: 2008,
     oscars: 2,
     oscarDetails: ["Best Supporting Actor", "Best Sound Editing"],
-    actors: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    actors: ["Christian Bale", "Heath Ledger", "Aaron Eckhart", "Gary Oldman", "Michael Caine", "Morgan Freeman"],
     director: "Christopher Nolan",
     music: "Hans Zimmer & James Newton Howard",
     info: "Heath Ledger's Joker is the gold standard of comic-book villains. A crime thriller that just happens to wear a cape."
@@ -50,7 +50,7 @@ const se7en = {
     actors: ["Brad Pitt", "Morgan Freeman", "Kevin Spacey"],
     director: "David Fincher",
     music: "Howard Shore",
-    info: "A rain-soaked descent into the seven deadly sins. \"What's in the box?\" — an ending you never forget."
+    info: "A terrifying descent into the seven deadly sins. “What's in the box?” line seals an ending that no one can forget."
 }
 
 // 04: IMDB = 10
@@ -61,10 +61,10 @@ const usualSuspects = {
     year: 1995,
     oscars: 2,
     oscarDetails: ["Best Supporting Actor", "Best Original Screenplay"],
-    actors: ["Kevin Spacey", "Gabriel Byrne", "Benicio del Toro"],
+    actors: ["Kevin Spacey", "Gabriel Byrne", "Benicio del Toro", "Kevin Pollak", "Stephen Baldwin"],
     director: "Bryan Singer",
     music: "John Ottman",
-    info: "The greatest twist in con-man cinema. And like that... he's gone."
+    info: "“And like that... he's gone”. Maybe, the greatest twist ever in con-man cinema. The viewers will doubt themselves multiple times."
 }
 
 // 05: IMDB = 10
@@ -74,10 +74,10 @@ const prestige = {
     genres: ["Drama", "Mystery", "Sci-Fi"],
     year: 2006,
     oscars: 0,
-    actors: ["Hugh Jackman", "Christian Bale", "Michael Caine"],
+    actors: ["Hugh Jackman", "Christian Bale", "Scarlett Johansson", "Michael Caine"],
     director: "Christopher Nolan",
     music: "David Julyan",
-    info: "Are you watching closely? A duel between two obsessive magicians that rewards every rewatch."
+    info: "“Are you watching closely?” A breath-taking duel between two obsessive magicians in London, with each one of them attempting to outsmart the enemy."
 }
 
 // 06: IMDB = 10
@@ -88,7 +88,7 @@ const oppenheimer = {
     year: 2023,
     oscars: 7,
     oscarDetails: ["Best Picture", "Best Director", "Best Actor", "Best Supporting Actor", "Best Cinematography", "Best Film Editing", "Best Original Score"],
-    actors: ["Cillian Murphy", "Robert Downey Jr.", "Emily Blunt"],
+    actors: ["Cillian Murphy", "Emily Blunt", "Matt Damon", "Robert Downey Jr."],
     director: "Christopher Nolan",
     music: "Ludwig Göransson",
     info: "The man who moved the world and then had to live with it. A three-hour symphony of dread and genius."
@@ -97,7 +97,7 @@ const oppenheimer = {
 // 07: IMDB = 10
 const schindlersList = {
     name: "Schindler's List",
-    rating: 95,
+    rating: 93,
     genres: ["Biography", "Drama", "History"],
     year: 1993,
     oscars: 7,
@@ -105,7 +105,7 @@ const schindlersList = {
     actors: ["Liam Neeson", "Ralph Fiennes", "Ben Kingsley"],
     director: "Steven Spielberg",
     music: "John Williams",
-    info: "Whoever saves one life saves the world entire. Devastating, essential filmmaking."
+    info: "“Whoever saves one life saves the world entire.” Devastating, essential filmmaking, based on a true story."
 }
 
 // 08: IMDB = 10
@@ -116,10 +116,10 @@ const lotrFellowship = {
     year: 2001,
     oscars: 4,
     oscarDetails: ["Best Cinematography", "Best Makeup", "Best Visual Effects", "Best Original Score"],
-    actors: ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+    actors: ["Elijah Wood", "Ian McKellen", "Viggo Mortensen", "Sean Astin", "Orlando Bloom", "Sean Bean", "Christopher Lee"],
     director: "Peter Jackson",
     music: "Howard Shore",
-    info: "The journey begins. Middle-earth brought to life with a craft that has rarely been matched."
+    info: "“You shall not pass!” The journey begins. Middle-earth brought to life with a craft that has rarely been matched."
 }
 
 // 09: IMDB = 10
@@ -130,10 +130,10 @@ const lotrTwoTowers = {
     year: 2002,
     oscars: 2,
     oscarDetails: ["Best Visual Effects", "Best Sound Editing"],
-    actors: ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+    actors: ["Elijah Wood", "Ian McKellen", "Viggo Mortensen", "Sean Astin", "Orlando Bloom", "Andy Serkis", "Christopher Lee"],
     director: "Peter Jackson",
     music: "Howard Shore",
-    info: "Helm's Deep, Gollum, and Sam's speech about the stories that mattered. The middle chapter that never sags."
+    info: "The middle chapter that never gets old: Battle of Helm's Deep, Gollum's show and Sam's speech about the stories that mattered."
 }
 
 // 10: IMDB = 10
@@ -144,10 +144,10 @@ const lotrReturnOfTheKing = {
     year: 2003,
     oscars: 11,
     oscarDetails: ["Best Picture", "Best Director", "Best Adapted Screenplay", "Best Original Score", "Best Original Song", "Best Visual Effects", "Best Film Editing", "Best Art Direction", "Best Costume Design", "Best Makeup", "Best Sound Mixing"],
-    actors: ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+    actors: ["Elijah Wood", "Ian McKellen", "Viggo Mortensen", "Sean Astin", "Orlando Bloom", "Andy Serkis"],
     director: "Peter Jackson",
     music: "Howard Shore",
-    info: "A clean sweep of 11 Oscars. The most cathartic ending in blockbuster history — bow to no one."
+    info: "“My friends... You bow to no one!” A clean sweep of 11 Oscars. The most cathartic ending in blockbuster history."
 }
 
 // 11: IMDB = 10
@@ -160,21 +160,21 @@ const greenMile = {
     actors: ["Tom Hanks", "Michael Clarke Duncan", "David Morse"],
     director: "Frank Darabont",
     music: "Thomas Newman",
-    info: "A death-row miracle wrapped in heartbreak. John Coffey — like the drink, but not spelled the same."
+    info: "“John Coffey - like the drink, but not spelled the same”. A death-row miracle wrapped in heartbreak."
 }
 
 // 12: IMDB = 10
 const forrestGump = {
     name: "Forrest Gump",
     rating: 100,
-    genres: ["Drama", "Romance", "Comedy"],
+    genres: ["Drama", "Romance"],
     year: 1994,
     oscars: 6,
     oscarDetails: ["Best Picture", "Best Director", "Best Actor", "Best Adapted Screenplay", "Best Visual Effects", "Best Film Editing"],
     actors: ["Tom Hanks", "Robin Wright", "Gary Sinise"],
     director: "Robert Zemeckis",
     music: "Alan Silvestri",
-    info: "Life is like a box of chocolates. A simple man running through half a century of American history."
+    info: "“Life is like a box of chocolates. You never know what you’re gonna get”. A simple man running through years of American history and achieving great things in his life."
 }
 
 // 13: IMDB = 10
@@ -184,7 +184,7 @@ const potcBlackPearl = {
     genres: ["Action", "Adventure", "Fantasy"],
     year: 2003,
     oscars: 0,
-    actors: ["Johnny Depp", "Orlando Bloom", "Keira Knightley"],
+    actors: ["Johnny Depp", "Orlando Bloom", "Keira Knightley", "Geoffrey Rush"],
     director: "Gore Verbinski",
     music: "Klaus Badelt",
     info: "The one that made a theme-park ride into an icon. Jack Sparrow's entrance is pure cinema."
@@ -198,10 +198,10 @@ const potcDeadMansChest = {
     year: 2006,
     oscars: 1,
     oscarDetails: ["Best Visual Effects"],
-    actors: ["Johnny Depp", "Orlando Bloom", "Keira Knightley"],
+    actors: ["Johnny Depp", "Orlando Bloom", "Keira Knightley", "Geoffrey Rush", "Bill Nighy"],
     director: "Gore Verbinski",
     music: "Hans Zimmer",
-    info: "Davy Jones and his barnacled crew raise the stakes. The three-way sword fight on the wheel is a blast."
+    info: "Davy Jones and his barnacled crew raise the stakes. The three-way sword fight on the wheel is a bless to watch."
 }
 
 // 15: IMDB = 10
@@ -211,10 +211,10 @@ const potcAtWorldsEnd = {
     genres: ["Action", "Adventure", "Fantasy"],
     year: 2007,
     oscars: 0,
-    actors: ["Johnny Depp", "Orlando Bloom", "Keira Knightley"],
+    actors: ["Johnny Depp", "Orlando Bloom", "Keira Knightley", "Geoffrey Rush", "Bill Nighy", "Jack Davenport"],
     director: "Gore Verbinski",
     music: "Hans Zimmer",
-    info: "The grand, chaotic finale of the original trilogy. The maelstrom battle is gloriously over-the-top."
+    info: "The grand, chaotic finale of the original trilogy. The maelstrom battle is simply glorious and iconic."
 }
 
 // 16: IMDB = 10
@@ -224,10 +224,10 @@ const potcOnStrangerTides = {
     genres: ["Action", "Adventure", "Fantasy"],
     year: 2011,
     oscars: 0,
-    actors: ["Johnny Depp", "Penélope Cruz", "Ian McShane"],
+    actors: ["Johnny Depp", "Penélope Cruz", "Ian McShane", "Geoffrey Rush"],
     director: "Rob Marshall",
     music: "Hans Zimmer",
-    info: "Jack hunts the Fountain of Youth with Blackbeard on his tail. Mermaids, zombies and a leaner adventure."
+    info: "Jack hunts the Fountain of Youth with Blackbeard on his tail. Mermaids, zombies and a unique adventure."
 }
 
 // 17: IMDB = 10
@@ -237,7 +237,7 @@ const potcDeadMenTellNoTales = {
     genres: ["Action", "Adventure", "Fantasy"],
     year: 2017,
     oscars: 0,
-    actors: ["Johnny Depp", "Javier Bardem", "Brenton Thwaites"],
+    actors: ["Johnny Depp", "Javier Bardem", "Kaya Scodelario", "Brenton Thwaites", "Geoffrey Rush"],
     director: "Joachim Rønning & Espen Sandberg",
     music: "Geoff Zanelli",
     info: "Captain Salazar's ghost crew hunts Jack one last time. A nostalgic send-off for the saga."
@@ -253,7 +253,7 @@ const trumanShow = {
     actors: ["Jim Carrey", "Ed Harris", "Laura Linney"],
     director: "Peter Weir",
     music: "Burkhard Dallwitz & Philip Glass",
-    info: "Decades ahead of its time on reality TV and surveillance. \"In case I don't see ya — good afternoon, good evening, and good night.\""
+    info: "“In case I don't see ya... Good afternoon, good evening and good night”. Decades ahead of its time on reality TV and surveillance."
 }
 
 // 19: IMDB = 10
@@ -278,7 +278,7 @@ const beautifulMind = {
     year: 2001,
     oscars: 4,
     oscarDetails: ["Best Picture", "Best Director", "Best Supporting Actress", "Best Adapted Screenplay"],
-    actors: ["Russell Crowe", "Jennifer Connelly", "Ed Harris"],
+    actors: ["Russell Crowe", "Jennifer Connelly", "Ed Harris", "Paul Bettany"],
     director: "Ron Howard",
     music: "James Horner",
     info: "The brilliant, troubled mind of John Nash. A story about genius, delusion and the love that anchors a life."
@@ -291,21 +291,21 @@ const vForVendetta = {
     genres: ["Action", "Drama", "Sci-Fi"],
     year: 2005,
     oscars: 0,
-    actors: ["Hugo Weaving", "Natalie Portman", "Stephen Rea"],
+    actors: ["Hugo Weaving", "Natalie Portman", "Rupert Graves"],
     director: "James McTeigue",
     music: "Dario Marianelli",
-    info: "Ideas are bulletproof. A masked revolutionary and an unforgettable Guy Fawkes finale."
+    info: "“Ideas are bulletproof.” A masked revolutionary and an unforgettable Guy Fawkes finale."
 }
 
 // 22: IMDB = 10
 const insideOut = {
     name: "Inside Out",
-    rating: 95,
+    rating: 94,
     genres: ["Animation", "Adventure", "Comedy"],
     year: 2015,
     oscars: 1,
     oscarDetails: ["Best Animated Feature"],
-    actors: ["Amy Poehler", "Phyllis Smith", "Bill Hader"],
+    actors: ["Amy Poehler", "Phyllis Smith", "Bill Hader", "Lewis Black", "Mindy Kaling"],
     director: "Pete Docter",
     music: "Michael Giacchino",
     info: "Pixar maps the inside of a child's head and breaks your heart with a memory called Bing Bong."
@@ -318,10 +318,10 @@ const shutterIsland = {
     genres: ["Mystery", "Thriller", "Drama"],
     year: 2010,
     oscars: 0,
-    actors: ["Leonardo DiCaprio", "Mark Ruffalo", "Ben Kingsley"],
+    actors: ["Leonardo DiCaprio", "Mark Ruffalo", "Ben Kingsley", "Emily Mortimer"],
     director: "Martin Scorsese",
-    music: "Robbie Robertson (music supervisor) (Not Sure)",
-    info: "A psychological maze of an island asylum. \"Which would be worse — to live as a monster, or to die as a good man?\""
+    music: "Robbie Robertson (music supervisor)",
+    info: "“Which would be worse? To live as a monster, or to die as a good man?” A psychological maze of an island asylum, featuring a detective trying to find the truth."
 }
 
 // 24: IMDB = 10
@@ -332,7 +332,7 @@ const inception = {
     year: 2010,
     oscars: 4,
     oscarDetails: ["Best Cinematography", "Best Visual Effects", "Best Sound Editing", "Best Sound Mixing"],
-    actors: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Marion Cotillard"],
+    actors: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Marion Cotillard", "Tom Hardy", "Elliot Page", "Ken Watanabe"],
     director: "Christopher Nolan",
     music: "Hans Zimmer",
     info: "A dream within a dream within a dream. The spinning top still hasn't fallen."
@@ -346,10 +346,10 @@ const dune = {
     year: 2021,
     oscars: 6,
     oscarDetails: ["Best Cinematography", "Best Original Score", "Best Visual Effects", "Best Film Editing", "Best Production Design", "Best Sound"],
-    actors: ["Timothée Chalamet", "Rebecca Ferguson", "Oscar Isaac"],
+    actors: ["Timothée Chalamet", "Rebecca Ferguson", "Zendaya", "Oscar Isaac", "Jason Momoa"],
     director: "Denis Villeneuve",
     music: "Hans Zimmer",
-    info: "Sci-fi on the grandest possible scale. Arrakis has never looked or sounded so vast."
+    info: "Sci-fi on the grandest possible scale. Planet Arrakis has never looked or sounded so vast."
 }
 
 // 26: IMDB = 9
@@ -359,10 +359,10 @@ const mandalorianAndGrogu = {
     genres: ["Sci-Fi", "Action", "Adventure"],
     year: 2026,
     oscars: 0,
-    actors: ["Pedro Pascal (Not Sure)", "Sigourney Weaver (Not Sure)"],
+    actors: ["Pedro Pascal", "Sigourney Weaver", "Jeremy Allen White"],
     director: "Jon Favreau",
-    music: "Ludwig Göransson (Not Sure)",
-    info: "The first big-screen Mandalorian adventure (Not Sure on full details — upcoming release)."
+    music: "Ludwig Göransson",
+    info: "The first big-screen Mandalorian adventure alongside Grogu, a story full of unexpected events."
 }
 
 // 27: IMDB = 9
@@ -372,24 +372,24 @@ const spiderManNoWayHome = {
     genres: ["Action", "Adventure", "Sci-Fi"],
     year: 2021,
     oscars: 0,
-    actors: ["Tom Holland", "Zendaya", "Benedict Cumberbatch"],
+    actors: ["Tom Holland", "Zendaya", "Benedict Cumberbatch", "Jacob Batalon", "Marisa Tomei"],
     director: "Jon Watts",
     music: "Michael Giacchino",
-    info: "The multiverse cracks open and three Spider-Men share the screen. Fan service done right."
+    info: "The multiverse cracks open and three Spider-Men share the same screen. Fan service done right."
 }
 
 // 28: IMDB = 9
 const parasite = {
     name: "Parasite",
-    rating: 90,
+    rating: 91,
     genres: ["Drama", "Thriller", "Comedy"],
     year: 2019,
     oscars: 4,
     oscarDetails: ["Best Picture", "Best Director", "Best Original Screenplay", "Best International Feature"],
-    actors: ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"],
+    actors: ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong", "Choi Woo-shik", "Park So-dam"],
     director: "Bong Joon-ho",
     music: "Jung Jae-il",
-    info: "A razor-sharp class satire that turns on a dime into horror. The first non-English film to win Best Picture."
+    info: "A razor-sharp class satire that turns on a horror story within minutes. The first non-English film to win Best Picture."
 }
 
 // 29: IMDB = 9
@@ -399,10 +399,10 @@ const hamnet = {
     genres: ["Drama", "History"],
     year: 2025,
     oscars: 0,
-    actors: ["Paul Mescal (Not Sure)", "Jessie Buckley (Not Sure)"],
+    actors: ["Jessie Buckley", "Paul Mescal", "Emily Watson", "James Lintern"],
     director: "Chloé Zhao",
-    music: "Max Richter (Not Sure)",
-    info: "An adaptation of Maggie O'Farrell's novel about Shakespeare's family and grief (Not Sure on full details — recent release)."
+    music: "Max Richter",
+    info: "An adaptation of Maggie O'Farrell's novel about Shakespeare's family and grief."
 }
 
 // 30: IMDB = 9
@@ -413,10 +413,10 @@ const departed = {
     year: 2006,
     oscars: 4,
     oscarDetails: ["Best Picture", "Best Director", "Best Adapted Screenplay", "Best Film Editing"],
-    actors: ["Leonardo DiCaprio", "Matt Damon", "Jack Nicholson"],
+    actors: ["Leonardo DiCaprio", "Matt Damon", "Jack Nicholson", "Mark Wahlberg"],
     director: "Martin Scorsese",
     music: "Howard Shore",
-    info: "Cops and rats in Boston, each hunting the other. The film that finally won Scorsese his Oscar."
+    info: "Cops and rats in Boston, each hunting the other. The film that finally won Scorsese his well-deserving Oscar."
 }
 
 // 31: IMDB = 9
@@ -426,10 +426,10 @@ const zodiac = {
     genres: ["Crime", "Drama", "Mystery"],
     year: 2007,
     oscars: 0,
-    actors: ["Jake Gyllenhaal", "Mark Ruffalo", "Robert Downey Jr."],
+    actors: ["Jake Gyllenhaal", "Robert Downey Jr.", "Mark Ruffalo"],
     director: "David Fincher",
     music: "David Shire",
-    info: "An obsessive, meticulous hunt for a killer who was never caught. Procedural filmmaking at its finest."
+    info: "An obsessive and meticulous hunt for a killer who was never caught. Based on a true story. Procedural filmmaking at its finest."
 }
 
 // 32: IMDB = 9
@@ -439,7 +439,7 @@ const intouchables = {
     genres: ["Biography", "Comedy", "Drama"],
     year: 2011,
     oscars: 0,
-    actors: ["François Cluzet", "Omar Sy"],
+    actors: ["François Cluzet", "Omar Sy", "Anne Le Ny"],
     director: "Olivier Nakache & Éric Toledano",
     music: "Ludovico Einaudi",
     info: "An unlikely friendship between a paralysed aristocrat and his carer. Warm, funny and genuinely moving."
@@ -455,7 +455,7 @@ const carryOn = {
     actors: ["Taron Egerton", "Jason Bateman", "Sofia Carson"],
     director: "Jaume Collet-Serra",
     music: "Lorne Balfe",
-    info: "A young TSA agent is blackmailed into letting a package onto a flight. A tight Christmas-set thriller."
+    info: "A young TSA agent is blackmailed into letting a dangerous package onto a flight. A tight Christmas-set thriller."
 }
 
 // 34: IMDB = 8
@@ -464,11 +464,12 @@ const sinners = {
     rating: 83,
     genres: ["Horror", "Thriller", "Drama"],
     year: 2025,
-    oscars: 0,
-    actors: ["Michael B. Jordan", "Hailee Steinfeld (Not Sure)", "Miles Caton (Not Sure)"],
+    oscars: 4,
+    oscarDetails: ["Best Actor", "Best Original Screenplay", "Best Original Score", "Best Cinematography"],
+    actors: ["Michael B. Jordan", "Miles Caton", "Saul Williams", "Jack O'Connell", "Andrene Ward-Hammond"],
     director: "Ryan Coogler",
     music: "Ludwig Göransson",
-    info: "A genre-bending period horror from Ryan Coogler (Not Sure on full cast details)."
+    info: "A genre-bending period horror from Ryan Coogler with Michael Jordan winning the Oscar for playing the twins."
 }
 
 // 35: IMDB = 8
@@ -479,23 +480,23 @@ const pulpFiction = {
     year: 1994,
     oscars: 1,
     oscarDetails: ["Best Original Screenplay"],
-    actors: ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
+    actors: ["John Travolta", "Samuel L. Jackson", "Bruce Willis", "Uma Thurman", "Harvey Keitel"],
     director: "Quentin Tarantino",
-    music: "Various (compiled soundtrack) (Not Sure)",
-    info: "Tarantino reorders time and rewrites cool. Endlessly quotable and impossibly stylish."
+    music: "Famous tracks used",
+    info: "Tarantino reorders time and rewrites the story in a cool way. Endlessly quotable and impossibly stylish."
 }
 
 // 36: IMDB = 8
 const inglouriousBasterds = {
     name: "Inglourious Basterds",
     rating: 84,
-    genres: ["War", "Drama", "Thriller"],
+    genres: ["War", "Thriller",  "Fantasy"],
     year: 2009,
     oscars: 1,
     oscarDetails: ["Best Supporting Actor"],
-    actors: ["Brad Pitt", "Christoph Waltz", "Mélanie Laurent"],
+    actors: ["Brad Pitt", "Christoph Waltz", "Mélanie Laurent", "Michael Fassbender", "Diane Kruger"],
     director: "Quentin Tarantino",
-    music: "Various (compiled soundtrack) (Not Sure)",
+    music: "Ennio Morricone and more",
     info: "A WWII revenge fantasy with the greatest opening scene Tarantino ever wrote. Waltz is electric."
 }
 
@@ -509,46 +510,46 @@ const catchMeIfYouCan = {
     actors: ["Leonardo DiCaprio", "Tom Hanks", "Christopher Walken"],
     director: "Steven Spielberg",
     music: "John Williams",
-    info: "A charming cat-and-mouse caper based on the real Frank Abagnale. Breezy, slick and effortlessly fun."
+    info: "A charming cat-and-mouse story based on the real Frank Abagnale. Breezy, shiny and effortlessly fun."
 }
 
 // 38: IMDB = 8
 const sherlockHolmes = {
     name: "Sherlock Holmes",
-    rating: 85,
+    rating: 86,
     genres: ["Action", "Adventure", "Mystery"],
     year: 2009,
     oscars: 0,
     actors: ["Robert Downey Jr.", "Jude Law", "Rachel McAdams"],
     director: "Guy Ritchie",
     music: "Hans Zimmer",
-    info: "A punchy, witty reinvention of Holmes as a brawling genius. RDJ and Jude Law have perfect chemistry."
+    info: "A dynamic witty reinvention of Holmes as a genius who seeks troubles. RDJ and Jude Law have perfect chemistry."
 }
 
 // 39: IMDB = 8
 const sherlockHolmesGameOfShadows = {
     name: "Sherlock Holmes: A Game of Shadows",
-    rating: 85,
+    rating: 86,
     genres: ["Action", "Adventure", "Mystery"],
     year: 2011,
     oscars: 0,
     actors: ["Robert Downey Jr.", "Jude Law", "Jared Harris"],
     director: "Guy Ritchie",
     music: "Hans Zimmer",
-    info: "Holmes faces off against Moriarty. Bigger, bolder and just as much fun as the first."
+    info: "Holmes faces off against Moriarty. Bigger, bolder and as much fun as the first one."
 }
 
 // 40: IMDB = 8
 const jokerFolieADeux = {
     name: "Joker: Folie à Deux",
-    rating: 80,
+    rating: 81,
     genres: ["Crime", "Drama", "Musical"],
     year: 2024,
     oscars: 0,
     actors: ["Joaquin Phoenix", "Lady Gaga", "Brendan Gleeson"],
     director: "Todd Phillips",
     music: "Hildur Guðnadóttir",
-    info: "The divisive musical sequel that takes Arthur Fleck to Arkham and the courtroom."
+    info: "A musical sequel that takes Arthur Fleck to Arkham and the courtroom, dividing the fans."
 }
 
 // 41: IMDB = 8
@@ -562,36 +563,36 @@ const deadPoetsSociety = {
     actors: ["Robin Williams", "Robert Sean Leonard", "Ethan Hawke"],
     director: "Peter Weir",
     music: "Maurice Jarre",
-    info: "O Captain! My Captain! Carpe diem, and a teacher who changes everything. Seize the day."
+    info: "“O Captain! My Captain!” “Carpe diem!” A teacher who changes everything and inspires the students in a society with outdated ideas."
 }
 
 
 
 
 const movies = [
-  interstellar,
+  forrestGump,
+  prestige,
+  vForVendetta,
+  joker,
+  shutterIsland,
   darkKnight,
+  interstellar,
   se7en,
   usualSuspects,
-  prestige,
   oppenheimer,
   schindlersList,
   lotrFellowship,
   lotrTwoTowers,
   lotrReturnOfTheKing,
   greenMile,
-  forrestGump,
   potcBlackPearl,
   potcDeadMansChest,
   potcAtWorldsEnd,
   potcOnStrangerTides,
   potcDeadMenTellNoTales,
   trumanShow,
-  joker,
   beautifulMind,
-  vForVendetta,
   insideOut,
-  shutterIsland,
   inception,
   dune,
   mandalorianAndGrogu,
@@ -666,12 +667,12 @@ function createMovieCard(movie) {
 
     <div class="details">
       <div class="detail-row">
-        <span class="detail-label">Director</span>
-        <span class="detail-value">${escapeHtml(movie.director)}</span>
-      </div>
-      <div class="detail-row">
         <span class="detail-label">Starring</span>
         <span class="detail-value">${actors}</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Director</span>
+        <span class="detail-value">${escapeHtml(movie.director)}</span>
       </div>
       <div class="detail-row">
         <span class="detail-label">Music</span>

@@ -41,6 +41,7 @@ body {
 }
 
 .site-title {
+  color: var(--accent); 
   margin: 0;
   font-size: clamp(1.8rem, 4vw, 3rem);
   letter-spacing: 0.5px;
@@ -55,7 +56,7 @@ body {
 
 .site-footer {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem;
   color: var(--text-muted);
   font-size: 0.85rem;
   border-top: 1px solid var(--border);
@@ -100,7 +101,8 @@ body {
   display: flex;
   flex-direction: column;
   background: var(--bg-card);
-  border: 1px solid var(--border);
+  border: 3.5px solid var(--border);
+  /* border: 2.5px solid var(--accent); */
   border-radius: var(--radius);
   padding: 1.4rem;
   box-shadow: var(--shadow);
@@ -139,19 +141,24 @@ body {
 /* -------- Rating Badge -------- */
 .rating {
   flex: 0 0 auto;
-  min-width: 4.8rem;
+  width: 3.8rem;
+  height: 3.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   background: var(--accent-soft);
   color: var(--accent);
   border: 1px solid var(--accent);
   border-radius: 999px;
-  padding: 0.4rem 0.8rem;
+  padding: 0;
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 1.4rem;
 }
 
 .rating small {
-  display: inline;
+  display: block;
   font-size: 0.6rem;
   font-weight: 600;
   color: var(--text-muted);
@@ -196,7 +203,7 @@ body {
   background: var(--chip-bg);
   border: 1px solid var(--border);
   color: var(--text);
-  font-size: 0.78rem;
+  font-size: 0.92rem;
   padding: 0.2rem 0.6rem;
   border-radius: 999px;
 }
