@@ -35,7 +35,7 @@ body {
 /* -------- Header and footer -------- */
 .site-header {
   text-align: center;
-  padding: 1.5rem 1.25rem 1.5rem;
+  padding: 0.9rem;
   border-bottom: 1px solid var(--border);
   background: radial-gradient(1200px 300px at 50% -120px, rgba(255, 180, 58, 0.12), transparent);
 }
@@ -61,6 +61,32 @@ body {
   font-size: 0.85rem;
   border-top: 1px solid var(--border);
   margin-top: 1rem;
+}
+
+.disclaimer {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.disclaimer a {
+  color: var(--accent);
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 1rem;
+  padding: 0.45rem 0.9rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  border-radius: 999px;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+
+.github-link:hover {
+  background: var(--bg-card-hover);
+  color: var(--text);
 }
 
 
