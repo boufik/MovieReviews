@@ -13,6 +13,19 @@ Fields:
 ============================================================= */
 
 // 01: IMDB = 10
+const shawshankRedemption = {
+    name: "The Shawshank Redemption",
+    rating: 100,
+    genres: ["Drama"],
+    year: 1994,
+    oscars: 0,
+    actors: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"],
+    director: "Frank Darabont",
+    music: "Thomas Newman",
+    info: "“Get busy living, or get busy dying.” Hope, patience and friendship inside Shawshank — nominated seven times, won nothing, and still tops every list. Highest IMDB-rated movie of all time for a reason!"
+}
+
+// 02: IMDB = 10
 const forrestGump = {
     name: "Forrest Gump",
     rating: 100,
@@ -26,7 +39,7 @@ const forrestGump = {
     info: "“Life is like a box of chocolates. You never know what you’re gonna get”. A simple man running through years of American history and achieving great things in his life."
 }
 
-// 02: IMDB = 10
+// 03: IMDB = 10
 const prestige = {
     name: "The Prestige",
     rating: 100,
@@ -39,7 +52,7 @@ const prestige = {
     info: "“Are you watching closely?” A breath-taking duel between two obsessive magicians in London, with each one of them attempting to outsmart the enemy."
 }
 
-// 03: IMDB = 10
+// 04: IMDB = 10
 const vForVendetta = {
     name: "V for Vendetta",
     rating: 100,
@@ -52,7 +65,7 @@ const vForVendetta = {
     info: "“Ideas are bulletproof.” A masked revolutionary and an unforgettable Guy Fawkes finale."
 }
 
-// 04: IMDB = 10
+// 05: IMDB = 10
 const joker = {
     name: "Joker",
     rating: 100,
@@ -66,7 +79,7 @@ const joker = {
     info: "A character study disguised as a comic-book film. Phoenix disappears into Arthur Fleck."
 }
 
-// 05: IMDB = 10
+// 06: IMDB = 10
 const shutterIsland = {
     name: "Shutter Island",
     rating: 100,
@@ -79,7 +92,7 @@ const shutterIsland = {
     info: "“Which would be worse? To live as a monster, or to die as a good man?” A psychological maze of an island asylum, featuring a detective trying to find the truth."
 }
 
-// 06: IMDB = 10
+// 07: IMDB = 10
 const darkKnight = {
     name: "The Dark Knight",
     rating: 100,
@@ -94,7 +107,7 @@ const darkKnight = {
 }
 
 
-// 07: IMDB = 10
+// 08: IMDB = 10
 const potcBlackPearl = {
     name: "Pirates of the Caribbean: The Curse of the Black Pearl",
     rating: 99,
@@ -107,7 +120,7 @@ const potcBlackPearl = {
     info: "The one that made a theme-park ride into an icon. Jack Sparrow's entrance is pure cinema."
 }
 
-// 08: IMDB = 10
+// 09: IMDB = 10
 const potcDeadMansChest = {
     name: "Pirates of the Caribbean: Dead Man's Chest",
     rating: 99,
@@ -121,7 +134,7 @@ const potcDeadMansChest = {
     info: "Davy Jones and his barnacled crew raise the stakes. The three-way sword fight on the wheel is a bless to watch."
 }
 
-// 09: IMDB = 10
+// 10: IMDB = 10
 const potcAtWorldsEnd = {
     name: "Pirates of the Caribbean: At World's End",
     rating: 99,
@@ -135,7 +148,7 @@ const potcAtWorldsEnd = {
 }
 
 
-// 10: IMDB = 10
+// 11: IMDB = 10
 const lotrFellowship = {
     name: "The Lord of the Rings: The Fellowship of the Ring",
     rating: 98,
@@ -149,7 +162,7 @@ const lotrFellowship = {
     info: "“You shall not pass!” The journey begins. Middle-earth brought to life with a craft that has rarely been matched."
 }
 
-// 11: IMDB = 10
+// 12: IMDB = 10
 const lotrTwoTowers = {
     name: "The Lord of the Rings: The Two Towers",
     rating: 98,
@@ -163,7 +176,7 @@ const lotrTwoTowers = {
     info: "The middle chapter that never gets old: Battle of Helm's Deep, Gollum's show and Sam's speech about the stories that mattered."
 }
 
-// 12: IMDB = 10
+// 13: IMDB = 10
 const lotrReturnOfTheKing = {
     name: "The Lord of the Rings: The Return of the King",
     rating: 98,
@@ -177,7 +190,7 @@ const lotrReturnOfTheKing = {
     info: "“My friends... You bow to no one!” A clean sweep of 11 Oscars. The most cathartic ending in blockbuster history."
 }
 
-// 13: IMDB = 10
+// 14: IMDB = 10
 const trumanShow = {
     name: "The Truman Show",
     rating: 98,
@@ -190,7 +203,7 @@ const trumanShow = {
     info: "“In case I don't see ya... Good afternoon, good evening and good night”. Decades ahead of its time on reality TV and surveillance."
 }
 
-// 14: IMDB = 10
+// 15: IMDB = 10
 const se7en = {
     name: "Se7en",
     rating: 97,
@@ -203,7 +216,7 @@ const se7en = {
     info: "A terrifying descent into the seven deadly sins. “What's in the box?” line seals an ending that no one can forget."
 }
 
-// 15: IMDB = 10
+// 16: IMDB = 10
 const potcOnStrangerTides = {
     name: "Pirates of the Caribbean: On Stranger Tides",
     rating: 97,
@@ -216,7 +229,7 @@ const potcOnStrangerTides = {
     info: "Jack hunts the Fountain of Youth with Blackbeard on his tail. Mermaids, zombies and a unique adventure."
 }
 
-// 16: IMDB = 10
+// 17: IMDB = 10
 const potcDeadMenTellNoTales = {
     name: "Pirates of the Caribbean: Dead Men Tell No Tales",
     rating: 97,
@@ -229,7 +242,7 @@ const potcDeadMenTellNoTales = {
     info: "Captain Salazar's ghost crew hunts Jack one last time. A nostalgic send-off for the saga."
 }
 
-// 17: IMDB = 10
+// 18: IMDB = 10
 const beautifulMind = {
     name: "A Beautiful Mind",
     rating: 97,
@@ -243,7 +256,7 @@ const beautifulMind = {
     info: "The brilliant, troubled mind of John Nash. A story about genius, delusion and the love that anchors a life."
 }
 
-// 18: IMDB = 10
+// 19: IMDB = 10
 const oppenheimer = {
     name: "Oppenheimer",
     rating: 96,
@@ -257,7 +270,7 @@ const oppenheimer = {
     info: "The man who moved the world and then had to live with it. A three-hour symphony of dread and genius."
 }
 
-// 19: IMDB = 10
+// 20: IMDB = 10
 const greenMile = {
     name: "The Green Mile",
     rating: 96,
@@ -270,7 +283,7 @@ const greenMile = {
     info: "“John Coffey - like the drink, but not spelled the same”. A death-row miracle wrapped in heartbreak."
 }
 
-// 20: IMDB = 10
+// 21: IMDB = 10
 const spiderManNoWayHome = {
     name: "Spider-Man: No Way Home",
     rating: 96,
@@ -283,7 +296,7 @@ const spiderManNoWayHome = {
     info: "The multiverse cracks open and three Spider-Men share the same screen. Fan service done right."
 }
 
-// 21: IMDB = 10
+// 22: IMDB = 10
 const interstellar = {
     name: "Interstellar",
     rating: 95,
@@ -297,7 +310,7 @@ const interstellar = {
     info: "A love letter to space, time and the bond between a father and daughter. Zimmer's organ score hits like a force of nature."
 }
 
-// 22: IMDB = 10
+// 23: IMDB = 10
 const usualSuspects = {
     name: "The Usual Suspects",
     rating: 95,
@@ -311,7 +324,7 @@ const usualSuspects = {
     info: "“And like that... he's gone”. Maybe, the greatest twist ever in con-man cinema. The viewers will doubt themselves multiple times."
 }
 
-// 23: IMDB = 10
+// 24: IMDB = 10
 const inception = {
     name: "Inception",
     rating: 95,
@@ -325,7 +338,20 @@ const inception = {
     info: "A dream within a dream within a dream. The spinning top still hasn't fallen."
 }
 
-// 24: IMDB = 10
+// 25: IMDB = 10
+const pressure = {
+    name: "Pressure",
+    rating: 94,
+    genres: ["Drama", "History", "War"],
+    year: 2026,
+    oscars: 0,
+    actors: ["Andrew Scott", "Brendan Fraser"],
+    director: "Anthony Maras",
+    music: "Volker Bertelmann",
+    info: "“OK, we'll go.” The three days before D-Day, decided not by generals, but by a weather forecast."
+}
+
+// 26: IMDB = 10
 const insideOut = {
     name: "Inside Out",
     rating: 94,
@@ -339,7 +365,7 @@ const insideOut = {
     info: "Pixar maps the inside of a child's head and breaks your heart with a memory called Bing Bong."
 }
 
-// 25: IMDB = 10
+// 27: IMDB = 10
 const schindlersList = {
     name: "Schindler's List",
     rating: 93,
@@ -353,7 +379,7 @@ const schindlersList = {
     info: "“Whoever saves one life saves the world entire.” Devastating, essential filmmaking, based on a true story."
 }
 
-// 26: IMDB = 9
+// 28: IMDB = 9
 const zodiac = {
     name: "Zodiac",
     rating: 92,
@@ -366,7 +392,7 @@ const zodiac = {
     info: "An obsessive and meticulous hunt for a killer who was never caught. Based on a true story. Procedural filmmaking at its finest."
 }
 
-// 27: IMDB = 9
+// 29: IMDB = 9
 const parasite = {
     name: "Parasite",
     rating: 91,
@@ -380,7 +406,7 @@ const parasite = {
     info: "A razor-sharp class satire that turns on a horror story within minutes. The first non-English film to win Best Picture."
 }
 
-// 28: IMDB = 9
+// 30: IMDB = 9
 const departed = {
     name: "The Departed",
     rating: 90,
@@ -394,7 +420,7 @@ const departed = {
     info: "Cops and rats in Boston, each hunting the other. The film that finally won Scorsese his well-deserving Oscar."
 }
 
-// 29: IMDB = 9
+// 31: IMDB = 9
 const dune = {
     name: "Dune",
     rating: 89,
@@ -408,7 +434,7 @@ const dune = {
     info: "Sci-fi on the grandest possible scale. Planet Arrakis has never looked or sounded so vast."
 }
 
-// 30: IMDB = 9
+// 32: IMDB = 9
 const mandalorianAndGrogu = {
     name: "The Mandalorian and Grogu",
     rating: 88,
@@ -421,7 +447,7 @@ const mandalorianAndGrogu = {
     info: "The first big-screen Mandalorian adventure alongside Grogu, a story full of unexpected events."
 }
 
-// 31: IMDB = 9
+// 33: IMDB = 9
 const hamnet = {
     name: "Hamnet",
     rating: 88,
@@ -434,7 +460,7 @@ const hamnet = {
     info: "An adaptation of Maggie O'Farrell's novel about Shakespeare's family and grief."
 }
 
-// 32: IMDB = 9
+// 34: IMDB = 9
 const intouchables = {
     name: "The Intouchables",
     rating: 87,
@@ -447,7 +473,7 @@ const intouchables = {
     info: "An unlikely friendship between a paralysed aristocrat and his carer. Warm, funny and genuinely moving."
 }
 
-// 33: IMDB = 8
+// 35: IMDB = 8
 const sherlockHolmes = {
     name: "Sherlock Holmes",
     rating: 86,
@@ -460,7 +486,7 @@ const sherlockHolmes = {
     info: "A dynamic witty reinvention of Holmes as a genius who seeks troubles. RDJ and Jude Law have perfect chemistry."
 }
 
-// 34: IMDB = 8
+// 36: IMDB = 8
 const sherlockHolmesGameOfShadows = {
     name: "Sherlock Holmes: A Game of Shadows",
     rating: 86,
@@ -473,7 +499,20 @@ const sherlockHolmesGameOfShadows = {
     info: "Holmes faces off against Moriarty. Bigger, bolder and as much fun as the first one."
 }
 
-// 35: IMDB = 9
+// 37: IMDB = 9
+const theOdyssey = {
+    name: "The Odyssey",
+    rating: 85,
+    genres: ["Adventure", "Fantasy", "Drama"],
+    year: 2026,
+    oscars: 0,
+    actors: ["Matt Damon", "Tom Holland", "Anne Hathaway", "Zendaya", "Robert Pattinson", "Charlize Theron"],
+    director: "Christopher Nolan",
+    music: "Ludwig Göransson",
+    info: "Nolan takes on Homer. Ten years of Odysseus fighting his way home, shot entirely on IMAX film. The impressing about this movie is the wide use of practical effects like real sets, real locations and physical props with minimal CGI."
+}
+
+// 38: IMDB = 9
 const carryOn = {
     name: "Carry-On",
     rating: 85,
@@ -486,7 +525,7 @@ const carryOn = {
     info: "A young TSA agent is blackmailed into letting a dangerous package onto a flight. A tight Christmas-set thriller."
 }
 
-// 36: IMDB = 8
+// 39: IMDB = 8
 const inglouriousBasterds = {
     name: "Inglourious Basterds",
     rating: 84,
@@ -500,7 +539,7 @@ const inglouriousBasterds = {
     info: "A WW2 revenge fantasy with the greatest opening scene Tarantino ever wrote. Waltz is electric."
 }
 
-// 37: IMDB = 8
+// 40: IMDB = 8
 const catchMeIfYouCan = {
     name: "Catch Me If You Can",
     rating: 84,
@@ -513,7 +552,7 @@ const catchMeIfYouCan = {
     info: "A charming cat-and-mouse story based on the real Frank Abagnale. Breezy, shiny and effortlessly fun."
 }
 
-// 38: IMDB = 8
+// 41: IMDB = 8
 const sinners = {
     name: "Sinners",
     rating: 83,
@@ -527,7 +566,7 @@ const sinners = {
     info: "A genre-bending period horror from Ryan Coogler with Michael Jordan winning the Oscar for playing the twins."
 }
 
-// 39: IMDB = 8
+// 42: IMDB = 8
 const pulpFiction = {
     name: "Pulp Fiction",
     rating: 82,
@@ -541,7 +580,7 @@ const pulpFiction = {
     info: "Tarantino reorders time and rewrites the story in a cool way. Endlessly quotable and impossibly stylish."
 }
 
-// 40: IMDB = 8
+// 43: IMDB = 8
 const jokerFolieADeux = {
     name: "Joker: Folie à Deux",
     rating: 81,
@@ -554,7 +593,7 @@ const jokerFolieADeux = {
     info: "A musical sequel that takes Arthur Fleck to Arkham and the courtroom, dividing the fans."
 }
 
-// 41: IMDB = 8
+// 44: IMDB = 8
 const deadPoetsSociety = {
     name: "Dead Poets Society",
     rating: 80,
@@ -573,6 +612,7 @@ const deadPoetsSociety = {
 
 // List of movies
 const movies = [
+    shawshankRedemption,
     forrestGump,
     prestige,
     vForVendetta,
@@ -596,6 +636,7 @@ const movies = [
     interstellar,
     usualSuspects,
     inception,
+    pressure,
     insideOut,
     schindlersList,
     zodiac,
@@ -607,6 +648,7 @@ const movies = [
     intouchables,
     sherlockHolmes,
     sherlockHolmesGameOfShadows,
+    theOdyssey,
     carryOn,
     inglouriousBasterds,
     catchMeIfYouCan,
