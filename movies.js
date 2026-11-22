@@ -286,7 +286,7 @@ const primalFear = {
     director: "Gregory Hoblit",
     music: "James Newton Howard",
     info: "A courtroom thriller about a lawyer defending an altar boy accused of murder. Edward Norton's debut ends with one of the best plot twists ever.",
-    quote: ""
+    quote: "Sooner or later, a man who wears two faces forgets which one is real..."
 }
 
 // 20: IMDB = 10
@@ -301,7 +301,7 @@ const oppenheimer = {
     director: "Christopher Nolan",
     music: "Ludwig Göransson",
     info: "The man who moved the world and then had to live with it. A three-hour symphony of dread and genius.",
-    quote: ""
+    quote: "They won't fear it until they understand it. And they won't understand it until they've used it."
 }
 
 // 21: IMDB = 10
@@ -315,7 +315,7 @@ const greenMile = {
     director: "Frank Darabont",
     music: "Thomas Newman",
     info: "“John Coffey - like the drink, but not spelled the same”. A death-row miracle wrapped in heartbreak.",
-    quote: ""
+    quote: "I'm tired, boss. Tired of being on the road, lonely as a sparrow in the rain."
 }
 
 // 22: IMDB = 10
@@ -329,7 +329,7 @@ const spiderManNoWayHome = {
     director: "Jon Watts",
     music: "Michael Giacchino",
     info: "The multiverse cracks open and three Spider-Men share the same screen. Fan service done right.",
-    quote: ""
+    quote: "With great power comes great responsibility."
 }
 
 // 23: IMDB = 10
@@ -344,7 +344,7 @@ const interstellar = {
     director: "Christopher Nolan",
     music: "Hans Zimmer",
     info: "A love letter to space, time and the bond between a father and daughter. Zimmer's organ score hits like a force of nature.",
-    quote: ""
+    quote: "Mankind was born on Earth. It was never meant to die here."
 }
 
 // 24: IMDB = 10
@@ -359,7 +359,7 @@ const usualSuspects = {
     director: "Bryan Singer",
     music: "John Ottman",
     info: "“And like that... he's gone”. Maybe, the greatest twist ever in con-man cinema. The viewers will doubt themselves multiple times.",
-    quote: ""
+    quote: "The greatest trick the Devil ever pulled was convincing the world he didn't exist."
 }
 
 // 25: IMDB = 10
@@ -374,7 +374,7 @@ const inception = {
     director: "Christopher Nolan",
     music: "Hans Zimmer",
     info: "A dream within a dream within a dream. The spinning top still hasn't fallen.",
-    quote: ""
+    quote: "An idea is like a virus. Resilient. Highly contagious. And even the smallest seed of an idea can grow."
 }
 
 // 26: IMDB = 10
@@ -388,7 +388,7 @@ const angelsAndDemons = {
     director: "Ron Howard",
     music: "Hans Zimmer",
     info: "Robert Langdon races through Rome against the clock to stop an Illuminati plot against the Vatican. Fast, clever and full of symbols.",
-    quote: ""
+    quote: "Science and religion are not at odds."
 }
 
 // 27: IMDB = 10
@@ -396,14 +396,14 @@ const insideOut = {
     name: "Inside Out",
     rating: 94,
     genres: ["Animation", "Adventure", "Comedy"],
-    year: 2015,
+    year: "2015 & 2024",
     oscars: 1,
-    oscarDetails: ["Best Animated Feature"],
+    oscarDetails: ["Best Animated Feature (2015)"],
     actors: ["Amy Poehler", "Phyllis Smith", "Bill Hader", "Lewis Black", "Mindy Kaling"],
     director: "Pete Docter",
     music: "Michael Giacchino",
     info: "Pixar maps the inside of a child's head and breaks your heart with a memory called Bing Bong.",
-    quote: ""
+    quote: "Crying helps me slow down and obsess over the weight of life's problems."
 }
 
 // 28: IMDB = 10
@@ -417,7 +417,7 @@ const pressure = {
     director: "Anthony Maras",
     music: "Volker Bertelmann",
     info: "“OK, we'll go.” The three days before D-Day, decided not by generals, but by a weather forecast.",
-    quote: ""
+    quote: "The fate of the war hinges on this. There's only one imponderable left. I need a forecast."
 }
 
 // 29: IMDB = 10
@@ -432,7 +432,7 @@ const schindlersList = {
     director: "Steven Spielberg",
     music: "John Williams",
     info: "“Whoever saves one life saves the world entire.” Devastating, essential filmmaking, based on a true story.",
-    quote: ""
+    quote: "Whoever saves one life, saves the world entire."
 }
 
 // 30: IMDB = 9
@@ -446,7 +446,7 @@ const zodiac = {
     director: "David Fincher",
     music: "David Shire",
     info: "An obsessive and meticulous hunt for a killer who was never caught. Based on a true story. Procedural filmmaking at its finest.",
-    quote: ""
+    quote: "I'm not the Zodiac. And if I were, I certainly wouldn't tell you."
 }
 
 // 31: IMDB = 9
@@ -461,7 +461,7 @@ const parasite = {
     director: "Bong Joon-ho",
     music: "Jung Jae-il",
     info: "A razor-sharp class satire that turns on a horror story within minutes. The first non-English film to win Best Picture.",
-    quote: ""
+    quote: "You know what kind of plan never fails? No plan. No plan at all."
 }
 
 // 32: IMDB = 9
@@ -476,7 +476,7 @@ const departed = {
     director: "Martin Scorsese",
     music: "Howard Shore",
     info: "Cops and rats in Boston, each hunting the other. The film that finally won Scorsese his well-deserving Oscar.",
-    quote: ""
+    quote: "I don't want to be a product of my environment. I want my environment to be a product of me."
 }
 
 // 33: IMDB = 9
@@ -490,7 +490,7 @@ const butterflyEffect = {
     director: "Eric Bress & J. Mackye Gruber",
     music: "Michael Suby",
     info: "Every small change in the past rewrites the present. A dark, mind-bending ride about how one choice can ruin or save everything.",
-    quote: ""
+    quote: "A butterfly can flap its wings in Central Park and cause a hurricane in China."
 }
 
 // 34: IMDB = 9
@@ -505,7 +505,7 @@ const dune = {
     director: "Denis Villeneuve",
     music: "Hans Zimmer",
     info: "Sci-fi on the grandest possible scale. Planet Arrakis has never looked or sounded so vast.",
-    quote: ""
+    quote: "Dreams make good stories, but everything important happens when we're awake."
 }
 
 // 35: IMDB = 9
@@ -519,7 +519,7 @@ const mandalorianAndGrogu = {
     director: "Jon Favreau",
     music: "Ludwig Göransson",
     info: "The first big-screen Mandalorian adventure alongside Grogu, a story full of unexpected events.",
-    quote: ""
+    quote: "The old protect the young, and then the young protect the old. This is the Way."
 }
 
 // 36: IMDB = 9
@@ -533,7 +533,7 @@ const hamnet = {
     director: "Chloé Zhao",
     music: "Max Richter",
     info: "An adaptation of Maggie O'Farrell's novel about Shakespeare's family and grief.",
-    quote: ""
+    quote: "He loves me for what I am, not what I ought to be."
 }
 
 // 37: IMDB = 9
@@ -547,7 +547,7 @@ const intouchables = {
     director: "Olivier Nakache & Éric Toledano",
     music: "Ludovico Einaudi",
     info: "An unlikely friendship between a paralysed aristocrat and his carer. Warm, funny and genuinely moving.",
-    quote: ""
+    quote: "Sometimes you have to reach into someone else's world to find out what's missing in your own."
 }
 
 // 38: IMDB = 8
@@ -561,7 +561,7 @@ const sherlockHolmes = {
     director: "Guy Ritchie",
     music: "Hans Zimmer",
     info: "A dynamic witty reinvention of Holmes as a genius who seeks troubles. RDJ and Jude Law have perfect chemistry.",
-    quote: ""
+    quote: "I have been reliably informed that I have a pathological need to be the smartest person in the room."
 }
 
 // 39: IMDB = 8
@@ -575,7 +575,7 @@ const sherlockHolmesGameOfShadows = {
     director: "Guy Ritchie",
     music: "Hans Zimmer",
     info: "Holmes faces off against Moriarty. Bigger, bolder and as much fun as the first one.",
-    quote: ""
+    quote: "I may be on the side of the angels, but don't think for one second that I am one of them."
 }
 
 // 40: IMDB = 9
@@ -589,7 +589,7 @@ const theOdyssey = {
     director: "Christopher Nolan",
     music: "Ludwig Göransson",
     info: "Nolan takes on Homer. Ten years of Odysseus fighting his way home, shot entirely on IMAX film. The impressing about this movie is the wide use of practical effects like real sets, real locations and physical props with minimal CGI.",
-    quote: ""
+    quote: "There is no home for a man who has lost his way."
 }
 
 // 41: IMDB = 9
@@ -603,7 +603,7 @@ const carryOn = {
     director: "Jaume Collet-Serra",
     music: "Lorne Balfe",
     info: "A young TSA agent is blackmailed into letting a dangerous package onto a flight. A tight Christmas-set thriller.",
-    quote: ""
+    quote: "Sometimes the hardest part of moving forward is letting go."
 }
 
 // 42: IMDB = 8
@@ -618,7 +618,7 @@ const inglouriousBasterds = {
     director: "Quentin Tarantino",
     music: "Ennio Morricone and more",
     info: "A WW2 revenge fantasy with the greatest opening scene Tarantino ever wrote. Waltz is electric.",
-    quote: ""
+    quote: "That's a bingo! Is that the way you say it? 'That's a bingo'?"
 }
 
 // 43: IMDB = 8
@@ -632,7 +632,7 @@ const catchMeIfYouCan = {
     director: "Steven Spielberg",
     music: "John Williams",
     info: "A charming cat-and-mouse story based on the real Frank Abagnale. Breezy, shiny and effortlessly fun.",
-    quote: ""
+    quote: "I'm not the person you think I am."
 }
 
 // 44: IMDB = 9
@@ -646,7 +646,7 @@ const sixthSense = {
     director: "M. Night Shyamalan",
     music: "James Newton Howard",
     info: "“I see dead people.” A unique story with a twist that changed how audiences watch movies.",
-    quote: ""
+    quote: "I see dead people."
 }
 
 // 45: IMDB = 8
@@ -661,7 +661,7 @@ const sinners = {
     director: "Ryan Coogler",
     music: "Ludwig Göransson",
     info: "A genre-bending period horror from Ryan Coogler with Michael Jordan winning the Oscar for playing the twins.",
-    quote: ""
+    quote: "See, white folks, they like the blues just fine. They just don't like the people who make it."
 }
 
 // 46: IMDB = 8
@@ -676,7 +676,7 @@ const pulpFiction = {
     director: "Quentin Tarantino",
     music: "Famous tracks used",
     info: "Tarantino reorders time and rewrites the story in a cool way. Endlessly quotable and impossibly stylish.",
-    quote: ""
+    quote: "The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men... And you will know my name is the Lord when I lay my vengeance upon you."
 }
 
 // 47: IMDB = 8
@@ -691,7 +691,7 @@ const fargo = {
     director: "Joel & Ethan Coen",
     music: "Carter Burwell",
     info: "“And for what? For a little bit of money.” A kidnapping story in snowy Minnesota and a pregnant police chief who sees through it all.",
-    quote: ""
+    quote: "And it's a beautiful day. I just don't understand it."
 }
 
 // 48: IMDB = 8
@@ -705,7 +705,7 @@ const jokerFolieADeux = {
     director: "Todd Phillips",
     music: "Hildur Guðnadóttir",
     info: "A musical sequel that takes Arthur Fleck to Arkham and the courtroom, dividing the fans.",
-    quote: ""
+    quote: "That's life."
 }
 
 // 49: IMDB = 8
@@ -720,7 +720,7 @@ const deadPoetsSociety = {
     director: "Peter Weir",
     music: "Maurice Jarre",
     info: "“O Captain! My Captain!” “Carpe diem!” A teacher who changes everything and inspires the students in a society with outdated ideas.",
-    quote: ""
+    quote: "O Captain! My Captain! Carpe diem!"
 }
 
 
