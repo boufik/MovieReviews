@@ -196,7 +196,9 @@ body {
 
 /* -------- Oscars Block -------- */
 .oscars-block {
-  margin-top: 0.7rem;
+  margin-top: auto;               /* Push the Oscars to the bottom of the card */
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--border);
 }
 
 .oscars {
@@ -275,7 +277,13 @@ body {
   padding-top: 0.9rem;
   border-top: 1px solid var(--border);
   color: var(--text);
-  font-size: 0.92rem;
+  font-size: 0.95rem;
+  font-family: Georgia, "Times New Roman", serif;   /* Classic quotation look */
+  font-style: italic;
+}
+
+.info:not(:last-child) {
+  margin-bottom: 0.9rem;          /* Minimum gap before the Oscars block */
 }
 
 .empty-state {
